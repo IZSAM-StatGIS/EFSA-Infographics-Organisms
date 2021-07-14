@@ -188,11 +188,16 @@ img {
 
 .infographics-wrap .incubation-period h6 {
   margin-bottom: 0;
+<<<<<<< HEAD
   opacity: 0.6;
+=======
+  opacity: 0.5;
+>>>>>>> 4f4cf8f3e0fca08c07675d5ece33172e7dc35558
   position: relative;
   padding-left: 2.4rem;
 }
 
+<<<<<<< HEAD
 @media (min-width: 750px) {
   .infographics-wrap .incubation-period h6 {
     font-size: 1.8rem;
@@ -208,6 +213,9 @@ img {
 }
 
 .infographics-wrap .incubation-period h6::before {
+=======
+.infographics-wrap .incubation-period h6::before{
+>>>>>>> 4f4cf8f3e0fca08c07675d5ece33172e7dc35558
   content: "";
   width: 2.4rem;
   height: 2.4rem;
@@ -221,6 +229,7 @@ img {
   transform: translateX(-0.4rem);
 }
 
+<<<<<<< HEAD
 @media (min-width: 750px) {
   .infographics-wrap .incubation-period h6::before {
     width: 2.9rem;
@@ -237,6 +246,8 @@ img {
   }
 }
 
+=======
+>>>>>>> 4f4cf8f3e0fca08c07675d5ece33172e7dc35558
 .infographics-wrap .incubation-period p {
   margin-bottom: 0;
 }
@@ -267,7 +278,11 @@ img {
   width: 50%;
   height: 40vh;
   text-align: center;
+<<<<<<< HEAD
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+=======
+  isplay: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+>>>>>>> 4f4cf8f3e0fca08c07675d5ece33172e7dc35558
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
@@ -322,6 +337,7 @@ img {
   transition: all 0.3s ease;
 }
 
+<<<<<<< HEAD
 @media (min-width: 750px) {
   .infographics-wrap h5 {
     font-size: 1.3rem;
@@ -337,6 +353,8 @@ img {
   }
 }
 
+=======
+>>>>>>> 4f4cf8f3e0fca08c07675d5ece33172e7dc35558
 .infographics-wrap .pathogen-info-item-description h5 {
   margin-top: 0;
 }
@@ -345,6 +363,7 @@ img {
   font-size: 1.3rem;
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
   .infographics-wrap .pathogen-transmission h5 {
     font-size: 1.3rem;
@@ -357,6 +376,8 @@ img {
   }
 }
 
+=======
+>>>>>>> 4f4cf8f3e0fca08c07675d5ece33172e7dc35558
 .loaded .infographics-wrap h5 {
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -368,7 +389,11 @@ img {
   width: 100%;
   height: 60vh;
   text-align: center;
+<<<<<<< HEAD
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+=======
+  isplay: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+>>>>>>> 4f4cf8f3e0fca08c07675d5ece33172e7dc35558
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
