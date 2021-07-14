@@ -188,12 +188,27 @@ img {
 
 .infographics-wrap .incubation-period h6 {
   margin-bottom: 0;
-  opacity: 0.5;
+  opacity: 0.6;
   position: relative;
   padding-left: 2.4rem;
+  font-size: 1.6rem;
 }
 
-.infographics-wrap .incubation-period h6::before{
+@media (min-width: 768px) {
+  .infographics-wrap .incubation-period h6 {
+    font-size: 1.8rem;
+    padding-left: 2.9rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .infographics-wrap .incubation-period h6 {
+    font-size: 2.1rem;
+    padding-left: 2.9rem;
+  }
+}
+
+.infographics-wrap .incubation-period h6::before {
   content: "";
   width: 2.4rem;
   height: 2.4rem;
@@ -205,6 +220,22 @@ img {
   left: 0;
   -webkit-transform: translateX(-0.4rem);
   transform: translateX(-0.4rem);
+}
+
+@media (min-width: 768px) {
+  .infographics-wrap .incubation-period h6::before {
+    width: 2.9rem;
+    height: 2.9rem;
+    -webkit-transform: translateX(-0.4rem) translateY(-0.1rem);
+    transform: translateX(-0.4rem) translateY(-0.1rem);
+  }
+}
+
+@media (min-width: 1000px) {
+  .infographics-wrap .incubation-period h6::before {
+    -webkit-transform: translateX(-0.4rem) translateY(0.2rem);
+    transform: translateX(-0.4rem) translateY(0.2rem);
+  }
 }
 
 .infographics-wrap .incubation-period p {
@@ -292,12 +323,39 @@ img {
   transition: all 0.3s ease;
 }
 
+@media (min-width: 768px) {
+  .infographics-wrap h5 {
+    font-size: 1.3rem;
+    letter-spacing: 0.25rem;
+    margin-top: 0.8vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .infographics-wrap h5 {
+    font-size: 1.5rem;
+    margin-top: 0.5vh;
+  }
+}
+
 .infographics-wrap .pathogen-info-item-description h5 {
   margin-top: 0;
 }
 
 .infographics-wrap .pathogen-transmission h5 {
   font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .infographics-wrap .pathogen-transmission h5 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .infographics-wrap .pathogen-transmission h5 {
+    font-size: 1.5rem;
+  }
 }
 
 .loaded .infographics-wrap h5 {
