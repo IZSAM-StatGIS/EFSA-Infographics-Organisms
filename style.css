@@ -188,9 +188,23 @@ img {
 
 .infographics-wrap .incubation-period h6 {
   margin-bottom: 0;
-  opacity: 0.5;
+  opacity: 0.6;
   position: relative;
   padding-left: 2.4rem;
+}
+
+@media (min-width: 750px) {
+  .infographics-wrap .incubation-period h6 {
+    font-size: 1.8rem;
+    padding-left: 2.9rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .infographics-wrap .incubation-period h6 {
+    font-size: 2.1rem;
+    padding-left: 2.9rem;
+  }
 }
 
 .infographics-wrap .incubation-period h6::before {
@@ -207,7 +221,7 @@ img {
   transform: translateX(-0.4rem);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .infographics-wrap .incubation-period h6::before {
     width: 2.9rem;
     height: 2.9rem;
@@ -308,9 +322,7 @@ img {
   transition: all 0.3s ease;
 }
 
-<<<<<<< HEAD
-=======
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .infographics-wrap h5 {
     font-size: 1.3rem;
     letter-spacing: 0.25rem;
@@ -325,7 +337,6 @@ img {
   }
 }
 
->>>>>>> dev
 .infographics-wrap .pathogen-info-item-description h5 {
   margin-top: 0;
 }
@@ -334,8 +345,6 @@ img {
   font-size: 1.3rem;
 }
 
-<<<<<<< HEAD
-=======
 @media (min-width: 768px) {
   .infographics-wrap .pathogen-transmission h5 {
     font-size: 1.3rem;
@@ -348,7 +357,6 @@ img {
   }
 }
 
->>>>>>> dev
 .loaded .infographics-wrap h5 {
   opacity: 1;
   -webkit-transform: translateY(0);
